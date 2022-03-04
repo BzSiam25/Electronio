@@ -1,0 +1,18 @@
+img{
+    width: 100% !important;
+}
+.focus div{
+    overflow: hidden;
+}
+.focus:hover img{
+    animation: focus 2s;
+}
+
+@keyframes focus {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.3);
+    }
+}
